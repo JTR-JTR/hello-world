@@ -1,8 +1,8 @@
 # hello-world
 First repository in GIT Hub
 
-Hello World!
+##Hello World!
 
-Humans Unite!
+* Humans Unite!
 
-Another Commit Made for Humans Unite!
+* Another Commit Made for Humans Unite!
