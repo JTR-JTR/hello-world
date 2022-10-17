@@ -1,1 +1,30 @@
-*      @JTR-JTR
+# These owners will be the default owners for everything in
+# the repo.
+*                            @JTR-JTR
+
+# Dot-files should be handled by the lead dev (.gitignore and co)
+.*                           @JTR-JTR
+
+# Frontend assets
+* .js                         @JTR-JTR
+
+# Template and assets
+* .html *.css *.scss *.img    @JTR-JTR
+
+# Some module is quite complex, and shouldn't be touched without an expert
+# chiming in
+
+# some_module/tricky_part/*.py @functional_expert1 @functional_expert2
+
+# Schema and SQL migrations
+
+# *.sql *-ddl.pg               @peopledoc/dba
+
+# QA
+# /tests/end2end/              @peopledoc/set
+
+# Copywriting
+# *.po                         @peopledoc/localization-manager
+
+# Devsec
+# /ansible/credentials/        @peopledoc/devsecops
