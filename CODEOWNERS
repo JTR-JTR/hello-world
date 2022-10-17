@@ -9,7 +9,7 @@
 *.js                         @JTR-JTR
 
 # Template and assets
-#*.html *.css *.scss *.img    @JTR-JTR
+*.html *.css *.scss *.img    @JTR-JTR
 
 # Some module is quite complex, and shouldn't be touched without an expert chiming in
 # some_module/tricky_part/*.py @functional_expert1 @functional_expert2
